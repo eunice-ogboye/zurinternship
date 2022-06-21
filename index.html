@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MySelf</title>
+    <style>
+        *{
+            text-align: center;
+        }
+        .container{
+            background-color: #eee;
+            margin: auto;
+            min-height: 400px;
+            width: 400px;
+            border-radius: 30px;
+        }
+        button{
+            background-color: rgb(24, 22, 22);
+            color:#eee;
+            padding: 5px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+  
+    <div class="container">
+        <h2>Hello</h2>
+        <p>This edition of Zurinternship has been unbelievable to me. One minute, I will see 5 days to go. 
+            The next minute, I will see submition close. Please try to extended deadline a litle, Thanks.  </p>
+            <p>You wanna know my name? <button onclick="dname()">Click Here</button> </p>
+            <p id="name"></p>
+            <p>Get more details about me here <button onclick="detail()">Click Here</button> </p>
+            <p id="details"></p>
+            <i>Thanks for another oppotunity to express MySelf</i>
+    </div>
+
+    <script>
+        function dname() {
+            document.getElementById('name').innerHTML = 'My name is Eunice Ogboye'
+        }
+        function detail(){
+            document.getElementById('details').innerHTML = 'I\'m a lady of 4 feets height from Nigeria.'
+        }
+    </script>
+</body>
+</html>
