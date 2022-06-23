@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator - Zurinternship</title>
+</head>
+<body>
+    <h1>Simple Calculator</h1>
+    <table>
+        <tr>
+            <td>First Number</td>
+            <td>          
+                <input type="number" id="num1">
+          </td>
+        </tr>
+        <tr>
+            <td>Second Number</td>
+            <td>          
+                <input type="number" id="num2">
+          </td>
+        </tr>
+        <tr>
+            <td>Operations</td>
+          <td>          
+              <button onclick="add()">Addition</button>
+              <button onclick="subtract()">Subtraction</button>
+              <button onclick="multiply()">Multiplication</button>
+              <button onclick="divide()">Division</button>
+        </td>
+        <tr>
+            <td>Answer</td>
+          <td>          
+              <p id="ans"></p>
+        </td>
+        </tr>
+      </table>
+
+      <script src="./calculator.js"></script>
+</body>
+</html>
